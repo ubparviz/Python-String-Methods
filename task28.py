@@ -1,7 +1,7 @@
 # Izoh matnidan “yomon” so‘zlarni olib tashlang, so‘ngra tekshiring.
 
-text = str.upper(input("Izoh kiriting: "))
-yomon_soz = "BAD"
-bormi = yomon_soz in text
+text = str.lower(input("Izoh kiriting: "))
+yomon_soz = "bad"
+result = text.replace(yomon_soz, "")
 
-print(bormi)
+print(yomon_soz not in result)
