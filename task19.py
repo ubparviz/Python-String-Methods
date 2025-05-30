@@ -1,8 +1,8 @@
-# Matnni kichik harflarga o‘tkazing va faqat raqamlardan iborat emasligini tekshiring
+# Matnni kichik harflarga o‘tkazing. 
+# Faqat raqamlardan iborat emasligini tekshiring
 
-text = input("Matn kiritng: ")
+text = str.lower(input("Matn kiritng: "))
 
-result1 = text.isalpha()
-result2 = text.lower()
+result = text.isalpha()
 
-print(f"{result1}, {result2}")
+print(result)
