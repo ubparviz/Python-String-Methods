@@ -4,6 +4,6 @@
 username = input("Usernameni kiriting: ")
 
 replace = username.replace("-","")
-result = replace.isalpha()
+result = replace.isalpha() or replace.isdigit()
 
 print(result)
