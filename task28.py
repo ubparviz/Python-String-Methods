@@ -1,4 +1,4 @@
-# Izoh matnidan “yomon” so‘zlarni olib tashlang, so‘ngra tekshiring
+# Izoh matnidan “yomon” so‘zlarni olib tashlang, so‘ngra tekshiring.
 
 text = str.upper(input("Izoh kiriting: "))
 yomon_soz = "BAD"
