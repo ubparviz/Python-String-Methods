@@ -2,6 +2,6 @@
 
 text = input("Email kiritng: ")
 
-email = text.endswith(".com") and text[0] != "@"
+email = text.endswith(".com") and text[:1] != "@"
 
 print(email)
